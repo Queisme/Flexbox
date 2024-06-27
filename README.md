@@ -1,10 +1,14 @@
 # Flexbox
 
+https://www.youtube.com/watch?v=3YW65K6LcIA - Flexbox Crash Course
+
 https://internetingishard.netlify.app/html-and-css/flexbox/index.html
 
 https://flexbox.malven.co/
 
 https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 Flexbox info
 
