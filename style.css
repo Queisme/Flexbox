@@ -6,6 +6,7 @@
 
 .container {
     display: flex;
+    background: blue;
 }
 
 .box1,
@@ -21,13 +22,15 @@
 }
 
 .box1 {
-    
+    background: red;
 }
 
 .box2 {
+    background: green;
 
 }
 
 .box3 {
-
+    background: yellow;
+    color: black;
 }
