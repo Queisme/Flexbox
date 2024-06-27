@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    background: rgb(21, 21, 21);
 }
 
 .container {
@@ -9,10 +10,15 @@
     background: blue;
 }
 
+.container2{
+    display: flex;
+    flex-direction:column;
+    background: purple;
+}
+
 .box1,
 .box2,
 .box3 {
-    background: blue;
     border: 2px solid black;
     color:white;
     height: 100px;
@@ -33,4 +39,27 @@
 .box3 {
     background: yellow;
     color: black;
+}
+
+.box4,
+.box5,
+.box6 {
+    border: 2px solid black;
+    color:white;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    text-align: center;
+}
+
+.box4 {
+    background: hotpink;
+}
+
+.box5 {
+    background: aqua;
+}
+
+.box6 {
+    background: fuchsia;
 }
