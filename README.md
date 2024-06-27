@@ -4,6 +4,8 @@ https://internetingishard.netlify.app/html-and-css/flexbox/index.html
 
 https://flexbox.malven.co/
 
+https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/
+
 Flexbox info
 
 flex is shorthand for flex-grow, flex-shrink, and flex-basis.
@@ -41,7 +43,7 @@ If flex-basis is set to auto all flex items check for a width declaration.
 ~*Flex: auto*~ 
 flex:auto === flex-grow:1, flex-shrink:1, flex-basis:auto === flex: 1 1 auto.
 
-
+~*~*~*~*~*~*~*~*~*~*~
 
 Flexbox can work either horizontally or vertically. 
 
@@ -51,3 +53,16 @@ flex-direction: column === verticle main axis === verticle
 using flex: 1 with flex-direction: column sets flex-basis to 0, which means that all flex-growing and flex-shrinking would beging from 0. Use flex: auto or flex:1 1 auto.
 
 'using flex: 1 with flex-direction: column sets flex-basis to 0' === this happens because when flex-direction: column flex-basis refers to height instad of width.
+
+~*~*~*~*~*~*~*~*~*~*~
+
+~*justify-content*~ aligns items across the **main** axis 
+~*align-items*~ aligns items across the **cross** axis
+
+Because *justify-content* and *align-items* are based on the main and cross axis of the parent container, their behavior changes when you change the flex-direction.
+
+flex-direction: row === justify-content aligns horizontally
+                        align-items aligns vertically
+
+flex-direction: column === justify-content now aligns vertically
+                           align-items aligns horizontally
