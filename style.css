@@ -1,0 +1,33 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+.box1,
+.box2,
+.box3 {
+    background: blue;
+    border: 2px solid black;
+    color:white;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    text-align: center;
+}
+
+.box1 {
+    
+}
+
+.box2 {
+
+}
+
+.box3 {
+
+}
